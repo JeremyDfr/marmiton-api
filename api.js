@@ -8,7 +8,9 @@ app.get('/recipes', async (req, res) => {
 
 });
 
-app.get('/recipes/:id')
+app.get('/recipes/:id', async (req, res) => {
+
+});
 
 app.listen(3000, () => {
     console.log('Node API started');
