@@ -12,6 +12,18 @@ app.get('/recipes/:id', async (req, res) => {
 
 });
 
+app.post('/recipes', async (req, res) => {
+
+});
+
+app.put('/recipes', async (req, res) => {
+
+});
+
+app.delete('/recipes/:id', async (req, res) => {
+
+});
+
 app.listen(3000, () => {
     console.log('Node API started');
 });
